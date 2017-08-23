@@ -1,0 +1,40 @@
+{
+  "title": "infiniteNeptun",
+  "name": "infiniteneptun",
+  "version": "1.1.2",
+  "description": "Ease the Neptun pain",
+  "main": "index.js",
+  "author": "Koli",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ],
+  "preferences": [{
+	"name": "url",
+	"title": "Neptun Address",
+	"description": "The url you use to access Neptun",
+	"type": "string",
+	"value": "https://hallgato.neptun.elte.hu"
+  },{
+	"name": "color",
+	"title": "Theme Color",
+	"description": "Hexadecimal color code for main apperance",
+	"type": "string",
+	"value": "1976D2"
+  },{
+	"name": "uname",
+	"title": "Username",
+	"type": "string",
+	"value": "",
+	"hidden": true
+  },{
+	"name": "pwd",
+	"title": "Password",
+	"type": "string",
+	"value": "",
+	"hidden": true
+  }]
+}

@@ -1,0 +1,21 @@
+<!doctype html>
+<style>
+body {
+	background-color: #fafafa;
+}
+.menu {
+	height: 20%;
+	cursor:pointer;
+}
+.menu:hover {
+	background-color: #fff;
+}
+</style>
+<body>
+<div class="menu" onclick="removeCreds">Delete data</div>
+</body>
+<script>
+function removeCreds() {
+	self.port.emit("removeCreds", false);
+}
+</script>
